@@ -50,4 +50,8 @@ Items must be in the following slots after purchase:
 
 # Important
 After consuming items, apply ALT+TAB to exit the game screen and come back, so that when the time is up the script applies again.
-This can be done after 15 seconds which is when you have new potion
+This can be done after 15 seconds which is when you have new potion.
+
+* Countdown potion 15 seconds
+* Countdown zhonya 120 seconds
+* Countdown heal 240 seconds
