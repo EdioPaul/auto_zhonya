@@ -8,22 +8,6 @@ This repository contains a Python script that utilizes the League of Legends Gam
 
 The user can specify their desired health threshold and the names of the items they wish to use in the script.
 
-# Setup
-
-* Clone this repository to your local machine.
-* In the command line, navigate to the project's root directory and run the following command to install the required dependencies:
-
-```
-pip3 install requests
-```
-
-```
-pip3 install keyboard
-```
-
-* Open the script in a code editor and update the health_threshold variable to your desired value.
-* Wait to start a match.
-* Run the script using your preferred method (e.g. command line, code editor's built-in terminal, etc.)
 
 # Requirements
 
@@ -41,12 +25,31 @@ pip3 install keyboard
 
 * cert file (included)
 
+  
+# Setup
+
+* Clone this repository to your local machine.
+* In the command line, navigate to the project's root directory and run the following command to install the required dependencies:
+
+```
+pip3 install requests
+```
+
+```
+pip3 install keyboard
+```
+
+* Open the script in a code editor and update the health_threshold variable to your desired value.
+* Wait to start a match.
+* Run the script using your preferred method (e.g. command line, code editor's built-in terminal, etc.)
+
 
 # Note
 Items must be in the following slots after purchase:
 * Potions, slot number 1
 * Stopwatch or Zhonya, slot number 2
 * SummonerSpell heal, preparation F
+
 
 # Important
 After consuming items, apply ALT+TAB to exit the game screen and come back, so that when the time is up the script applies again.
