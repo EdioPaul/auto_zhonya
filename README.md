@@ -47,6 +47,7 @@ Items must be in the following slots after purchase:
 * Potions, slot number 1
 * Stopwatch or Zhonya, slot number 2
 * SummonerSpell heal, preparation F
-  
+
+# Important
 After consuming items, apply ALT+TAB to exit the game screen and come back, so that when the time is up the script applies again.
 This can be done after 15 seconds which is when you have new potion
