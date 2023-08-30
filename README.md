@@ -22,6 +22,7 @@ pip3 install keyboard
 ```
 
 * Open the script in a code editor and update the health_threshold variable to your desired value.
+* Wait to start a match.
 * Run the script using your preferred method (e.g. command line, code editor's built-in terminal, etc.)
 
 # Requirements
@@ -47,5 +48,5 @@ Items must be in the following slots after purchase:
 * Stopwatch or Zhonya, slot number 2
 * SummonerSpell heal, preparation F
   
-After consuming items, apply alt tab to exit the game screen and come back, so that when the time is up the script applies again
+After consuming items, apply ALT+TAB to exit the game screen and come back, so that when the time is up the script applies again.
 This can be done after 15 seconds which is when you have new potion
