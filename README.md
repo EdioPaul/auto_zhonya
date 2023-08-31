@@ -45,16 +45,16 @@ pip3 install keyboard
 
 
 # Note
-Items must be in the following slots after purchase:
-* Potions, slot number 1
+Item must be in the following slots after purchase:
+
 * Stopwatch or Zhonya, slot number 2
-* SummonerSpell heal, preparation F
 
 
 # Important
-After consuming items, apply ALT+TAB to exit the game screen and come back, so that when the time is up the script applies again.
-This can be done after 15 seconds which is when you have new potion.
 
-* Countdown potion 15 seconds
+if you don't want to use zhonya, hold the space key until you're in the base again, or life returns above 50%, which is how much is parameterized to apply zhonya.
+
+After consuming zhonya, apply ALT+TAB during the item's cooldown time
+(120 seconds) to exit the game screen and come back, the script is applied again.
+
 * Countdown zhonya 120 seconds
-* Countdown heal 240 seconds

@@ -2,6 +2,7 @@ import requests
 import json
 import time
 import keyboard
+import pyautogui
 
 
 def find_summoner_name(data):
@@ -26,16 +27,11 @@ def is_alive(data, player):
 
 
 def use_item(data, health_threshold):
-    if check_health(data, health_threshold):
+    if not keyboard.is_pressed('space'): 
+        if check_health(data, health_threshold):
             print('Zhonya')
             keyboard.press(str(2))
-            time.sleep(3)
-            print('Spell Two F')
-            keyboard.press('F')
-            time.sleep(1)
-            print('Potion')
-            keyboard.press(str(1))
-            
+            time.sleep(120)            
 
 cert_path = "LoL Game Engineering Certificate Authority.crt"
 
@@ -55,10 +51,8 @@ while player:
 
     if is_alive(data, player):
         max_health = int(find_max_health(data))
-        print('Max Health  ', max_health)
-        percent_max_health = 35
+        percent_max_health = 50
         health_threshold = int(max_health * percent_max_health / 100)
-        print('Zhonya apply ', health_threshold)
         use_item(data, health_threshold)
 
     time.sleep(0.3)
